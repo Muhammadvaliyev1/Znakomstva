@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./icons/love-birds 1.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Znakomstva</title>
+</head>
+<body class="bg-brand-violet relative">
+    <header class="w-full">
+        <div class="w-full sm:block hidden py-3.5 bg-brand-black">
+            <div class="max-w-[400px] mx-auto gap-x-2.5 flex items-center">
+                <h2 class="font-Rubik font-medium text-white uppercase mr-2">Знакомства по всему миру</h2>
+                <div>
+                    <img src="./icons/united-states 1.svg">
+                </div>
+                <h4 class="font-Rubik text-white">Америка</h4>
+                <button>
+                    <img src="./icons/chevron-down.svg">
+                </button>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto flex sm:flex-row flex-col justify-between items-center pt-7">
+            <div class="flex items-center gap-x-5">
+                <a href="/">
+                    <img src="./icons/love-birds 1.svg">
+                </a>
+                <h3 class="font-Rubik text-2xl font-medium text-white">Znakomstva.com</h3>
+            </div>
+            <div class="flex sm:flex-row flex-col gap-x-5 items-center sm:mt-0 mt-2.5">
+                <a href="regist.html" class="font-Rubik text-white">
+                    Впервые здесь?
+                </a>
+                <button type="button" class="font-Rubik text-white border rounded-full border-primary px-9 py-3 sm:mt-0 mt-2.5"><a href="regist.html">Регистрация</a></button>
+            </div>
+        </div>
+    </header>
+<!-- 1932291275 AA5740992  --> 
+    <main class="w-full sm:mt-52 mt-12 relative px-4 pb-8">
+        <div class="absolute sm:block hidden left-0 bottom-0 -z-10">
+            <img src="./icons/Vector.svg">
+        </div>
+        <div class="absolute sm:block hidden right-0 bottom-0 -z-10">
+            <img src="./icons/Vector (1).svg">
+        </div>
+        <div class="absolute block sm:hidden left-0 bottom-0 -z-10">
+            <img src="./icons/Vectorl.svg">
+        </div>
+        <div class="absolute block sm:hidden right-0 bottom-0 -z-10">
+            <img src="./icons/Vectorr.svg">
+        </div>
+        <div class="absolute block bottom-0 -z-10 left-[15%]">
+            <img src="./icons/Ellipse 10.svg">
+        </div>
+        <div class="max-w-4xl mx-auto flex flex-col items-center text-center">
+            <h1 class="font-Rubik md:text-6xl text-4xl font-medium text-white">Знакомства без преград</h1>
+            <p class="font-Rubik text-white mt-2.5">Для современного мира сплочённость команды профессионалов однозначно фиксирует необходимость системы обучения кадров, соответствующей насущным потребностям.</p>
+            <form action="">
+                <div class="flex gap-x-5 items-center bg-brand-space_violet py-6 pl-7 sm:pr-20 pr-16 rounded-full mt-12">
+                    <div>
+                        <img src="./icons/message 1.svg">
+                    </div>
+                    <input type="email" class="w-56 outline-none bg-brand-space_violet font-Rubik text-brand-violet placeholder:text-brand-violet placeholder:font-Rubik" placeholder="Введите электронную почту">
+                </div>
+                <div class="flex gap-x-5 items-center bg-brand-space_violet py-6 px-7 rounded-full mt-2.5">
+                    <div>
+                        <img src="./icons/password 1.svg">
+                    </div>
+                    <input type="password" id="password" name="password" class="w-56 outline-none bg-brand-space_violet font-Rubik text-brand-violet placeholder:text-brand-violet placeholder:font-Rubik placeholder:bg-brand-space_violet" placeholder="Введите пароль">
+                    <button type="button" onclick="showHidePassword()" class="ml-3">
+                        <img src="./icons/eye 1.svg">
+                    </button>
+                </div>
+            </form>
+            <button type="button" class="rounded-full liner bg py-6 px-40 mt-2.5 font-Rubik font-medium text-white">Войти</button>
+            <button popovertarget="example" class="font-Rubik text-sm text-brand-space_violet mt-5">Я не помню пароль</button>
+            <div id="example" popover>
+                <h2 class="font-Rubik text-3xl font-medium text-white">Я не помню пароль</h2>
+                <p class="font-Rubik text-brand-spaced_violet mt-2.5">Введи свой email и мы вышлем тебе инструкции по изменению пароля</p>
+                <div class="flex sm:max-w-[380px] max-w-[305px] gap-x-5 items-center bg-brand-space_violet py-6 pl-7 sm:pr-20 pr-16 rounded-full mx-auto mt-5">
+                    <div class="w-5 h-5">
+                        <img class="w-5" src="./icons/message 1.svg">
+                    </div>
+                    <input type="email" class="w-56 outline-none bg-brand-space_violet font-Rubik text-brand-violet placeholder:text-brand-violet placeholder:font-Rubik" placeholder="Введите электронную почту">
+                </div>
+                <button type="button" class="max-w-[380px] rounded-full liner bg py-6 sm:px-20 px-12 mt-2.5 font-Rubik font-medium text-white">Запросить новый пароль</button>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto flex sm:flex-row flex-col flex-wrap sm:text-left text-center items-center gap-x-20 gap-y-2 mt-52">
+            <div class="flex sm:gap-x-7 gap-x-2.5 items-center flex-wrap font-Rubik sm:text-sm text-xs mx-auto text-white">
+                <a href="#">О нас</a>
+                <a href="#">Поддержка</a>
+                <a href="#">Советы</a>
+                <a href="#">Контакты</a>
+                <a href="#">Правила оплаты</a>
+            </div>
+            <a href="#" class="font-Rubik sm:text-sm text-xs text-white mx-auto">Политика обработки персональных данных</a>
+            <div class="flex max-w-[36px] gap-x-1.5 items-center font-Rubik mx-auto text-sm text-white">
+                <h2 class="mx-auto">RU</h2>
+                <div class="mx-auto">
+                    <img src="./icons/chevron-down.svg">
+                </div>
+            </div>
+            <a href="#" class="font-Rubik sm:text-sm text-xs text-white mx-auto">© Company 2021</a>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

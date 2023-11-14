@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.liner {
+    background: linear-gradient(90deg, #EE0979 0%, #FF6A00 100%);
+}
+.bbb {
+    background: linear-gradient(90deg, #0575E6 0%, #021B79 100%);
+}
+#male:checked ~ label {
+    @apply bg-gradient-to-t from-blue to-violet
+}
+#example {
+    background-color: #1B0522;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+#example::backdrop {
+    background: rgba(29, 11, 35, 0.85);
+    backdrop-filter: blur(2px);
+}
+/* <div id="example" popover class="flex flex-col items-center text-center backdrop:blur-sm rounded-[50px] bg-brand-black py-12 px-11"></div> */
